@@ -1,0 +1,67 @@
+body{
+background-color: rgba(235, 236, 236, 0.445);
+position: absolute;
+width: 311px;
+height: 168px;
+}
+
+
+
+#numeroTarjeta{
+    
+    width: 200px;
+    height: 35px;
+    Top: -537px;
+    Left: -740px;       
+    background: #e8e4e1;
+    flex: 1;
+
+}
+#tituloInicio{
+ position: absolute;
+width: 500px;
+height: 200px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+letter-spacing: 0.3em;
+
+color: #000000;
+}
+
+
+#btn1{
+    position: absolute;
+    width: 200px;
+    height: 28px;
+    box-shadow: darkblue;
+
+    
+    background: #DABE2B;
+    flex: 1;
+}
+
+
+
+
+
+/*#caja1{
+    position: absolute;
+    width: 311px;
+    height: 168px;
+    
+    background: #B1C8F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}*/
+
+
+
+    
+
+

@@ -6,9 +6,23 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
+    
+  <header>
+    <h2 id="tituloInicio">Valide su tarjeta</h2><br><br>
+  </header>
+    <main>
+      <form><br>
+        <label >Ingrese número de tarjeta:</label><br><br>
+        <input type="number" id="nTarjeta" name="numeroTarjeta" placeholder="XXXX-XXXX-XXXX-XXXX" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+        <input type="number"/>
+        <small>Ejemplo: 1234-1234-1234</small><br><br>
+        <input type="submit" id = "btn1" onclick="verificar(e)" value="Validar" >
+      </form>
+       
+       
+      
+    </main>
     <footer></footer>
-    <script src="index.js" type="module"></script>
+    <script src="index.js" type="text/javascript"></script>
   </body>
 </html>
