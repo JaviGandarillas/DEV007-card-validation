@@ -74,11 +74,11 @@ trabajo cubra los objetivos principales.
 **1. Una interfaz que debe permitir a la usuaria:**
 
 * Insertar un numero (texto) que quieres validar. Usa solo caracteres numéricos
-  (dígitos) en la tarjeta a validar [0-9].  
+  (dígitos) en la tarjeta a validar [0-9]. LISTO 
 * Ver si el resultado es válido o no.  
 * Ocultar todos los dígitos del número de tarjeta a exepción de los últimos
-  4 caracteres.  
-* No debes poder ingresar un campo vacío.  
+  4 caracteres.  LISTO
+* No debes poder ingresar un campo vacío. LISTO 
 
 **2. Pruebas unitarias de los métodos.**  
 Los metódos de `validator` (`isValid` y `maskify`) deben tener cobertura con
