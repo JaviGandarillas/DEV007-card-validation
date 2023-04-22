@@ -11,31 +11,31 @@ const botonValidar = document.querySelector('#btn1');
 //const newNumber= document.getElementById('nTarjeta');
 
 botonValidar.addEventListener('click', () => {
-    event.preventDefault();
-    validar(event);
-//validar(myInput);
+  event.preventDefault();
+  validar(event);
+  //validar(myInput);
     
 });
 function validar() {
-    //traer los valores del input
-    const inputTarjeta = document.querySelector("#nTarjeta").value;
+  //traer los valores del input
+  const inputTarjeta = document.querySelector("#nTarjeta").value;
    
-    if(inputTarjeta === ""){
-        alert('Ingrese número válido');
-        return false
-    }
-    //traer isValid
-    const esValida = validator.isValid(inputTarjeta);
-  
-    if (esValida) {
-      alert("Tarjeta aprobada");
-    } else {
-      alert("Ingrese un número válido");
-    }
-  
-    const tarjetaMaskificada = validator.maskify(inputTarjeta);
-    
+  if(inputTarjeta === ""){
+    alert('Ingrese número válido');
+    return false
   }
+  //traer isValid
+  const esValida = validator.isValid(inputTarjeta);
+  
+  if (esValida) {
+    alert("Tarjeta aprobada");
+  } else {
+    alert("Ingrese un número válido");
+  }
+  
+  validator.maskify(inputTarjeta);
+    
+}
 
 
 
