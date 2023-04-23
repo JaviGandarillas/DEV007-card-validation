@@ -9,6 +9,7 @@
 </head>
 
 <body>
+  <script type="module" src="index.js"></script>
   <header>
     <h2 id="tituloInicio">Valide su tarjeta</h2><br><br>
   </header>
@@ -23,7 +24,8 @@
           <label id="instruccion">Ingrese número de tarjeta:</label><br><br>
         </div>
         <div class="div2">
-          <input type="text" id="nTarjeta" placeholder="Introduce tu número de tarjeta" maxlength="16" oninput="this.value = this.value.replace(/[^0-9]/g, '')" />
+          <input type="text" id="nTarjeta" placeholder="Introduce tu número de tarjeta" maxlength="16"
+            oninput="this.value = this.value.replace(/[^0-9]/g, '')" />
 
         </div>
         <div class="div3">
@@ -39,7 +41,16 @@
         <h6 class="contenedor"> </h6>
       </div>
     </div>
-    
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p id="aprobada"></p>
+        <p id="invalida"></p>
+      </div>
+
+    </div>
 
 
   </main>

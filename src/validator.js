@@ -8,9 +8,9 @@
 
 
 const validator = {
-  
+
   isValid: function (myInput) {
-    
+
     // Toma el valor del input placeholder de id "nTarjeta"
     //TRANSFORMAR STRING nTarjeta en array, separar con split, revertir el string
     const nArray = myInput.split("");
@@ -44,11 +44,11 @@ const validator = {
 
     if (suma % 10 === 0) {
       //si es divisible por 10 entonces...
-      
+
       return true;
     } else {
       //si no es divisible por 10 entonces...
-      
+
       return false;
     }
   },
