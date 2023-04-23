@@ -28,13 +28,12 @@ function validar() {
   const esValida = validator.isValid(inputTarjeta);
   
   if (esValida) {
-    alert("Tarjeta aprobada");
+    alert("Tarjeta " + validator.maskify(inputTarjeta) + " es válida");
   } else {
-    alert("Ingrese un número válido");
+    alert("Tarjeta " + validator.maskify(inputTarjeta) + " rechazada");
   }
   
   validator.maskify(inputTarjeta);
-    
 }
 
 
