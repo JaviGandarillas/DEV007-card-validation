@@ -4,23 +4,20 @@ body {
     background-color: #A7F0F0;
     margin-left: auto;
     margin-right: auto;
-    max-width: 600px;
-    min-width: 600px;
+    max-width: 800px;
+    min-width: 800px;
     background-size: 50%;
-    height: 50px;
+    height: 100px;
     padding: 25px;
     text-align: center;
     justify-content: center;
-    display: inline-flexbox;
 }
 
 #nTarjeta {
-    position: absolute;
+
     width: 353px;
     height: 67px;
-    margin-top: -25%;
-    margin-left: -32%;
-    background: #F5EFEF;
+    background: #dedddd;
     font-size: 20px;
     font-family: 'Courier Prime';
     font-style: normal;
@@ -28,16 +25,21 @@ body {
     line-height: 18px;
     letter-spacing: 0.3em;
     text-align: center;
-
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     color: #000000;
+    border-radius: 15px;
+    order: 2;
+    margin-top: 30px;
+
 }
 
 
+
 #instruccion {
-    position: absolute;
     width: 369px;
     height: 60px;
-    top: 50%;
+    /*top: 50%;*/
+    justify-self: center;
     font-family: 'Josefin Slab';
     font-style: normal;
     font-weight: 600;
@@ -45,10 +47,10 @@ body {
     line-height: 20px;
     text-align: center;
     letter-spacing: 0.3em;
-    margin-left: 50px;
+    /*margin-left: 50px;*/
     color: #000000;
-    left: 43%;
-    transform: translateX(-50%);
+    order: 1;
+    margin-top: -10%;
 }
 
 .div2 {
@@ -61,8 +63,9 @@ body {
     position: absolute;
     width: 391px;
     height: 68px;
-    margin-left: 83px;
-    margin-right: auto;
+    margin: 10px;
+    /*margin-left: 83px;
+    margin-right: auto;*/
     font-family: 'Libre Caslon Text';
     font-style: normal;
     font-weight: 600;
@@ -70,17 +73,57 @@ body {
     line-height: 30px;
     text-align: center;
     letter-spacing: 0.3em;
-    margin-top: -77%;
+    /*margin-top: -77%;*/
     color: #000000;
 
 }
 
 #tarjetaImg {
     margin-top: -10%;
+    margin-bottom: -100px;
 }
 
+.tarjeta, .div1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.datosCaja {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background-color: #F5EFEF;
+    margin: 20px;
+    max-width: 600px;
+    box-sizing: content-box;
+    max-width: 528px;
+    min-width: 528px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+    justify-content: center;
+    border-radius: 7px;
+    Fill: Solid
+}
+.parte1, #tituloInicio, #tarjetaImg{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.parte2, .div1, .div5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+
 .todo {
-    position: absolute;
+    
+    /*position: absolute;
     box-sizing: content-box;
     background-color: #B1C8F3;
     width: 100%;
@@ -96,23 +139,21 @@ body {
     flex-direction: row;
     justify-content: center;
     background: #FFFFFF;
-    transform: matrix(1, 0, 0, 1, 0, 0);
     height: 615px;
     width: 528px;
     left: auto;
 
     border-radius: 7px;
-    Fill: Solid
+    Fill: Solid*/
 }
 
 
 
 #ej {
-    position: absolute;
     width: 361px;
     height: 28px;
-    margin-top: -15%;
-    margin-left: 15%;
+    /*margin-top: -15%;
+    margin-left: 15%;*/
     font-family: 'Jaldi';
     font-style: normal;
     font-weight: 400;
@@ -121,6 +162,10 @@ body {
     text-align: center;
     letter-spacing: 0.3em;
     color: #000000;
+    /*margin-bottom: 0%;*/
+    order: 3;
+    margin-top: 0px;
+    
 }
 
 p {
@@ -128,27 +173,54 @@ p {
 }
 
 #btn1 {
-    position: absolute;
-    width: 194px;
-    height: 52px;
-    background: #DABE2B;
-    margin-left: 0%;
-    margin-right: auto;
-    box-shadow: 2px 2px 3px;
-    margin-top: 100%;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-    letter-spacing: 0.3em;
+    min-width: 180px;
+    height: 40px;
     color: #000000;
-    border-radius: 7px;
-    padding: -200px;
-    margin: auto;
-}
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+    position: relative;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    background: #ffd819;
+   z-index: 1;
+   font-family: 'Libre Caslon Text';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 30px;
+   text-align: center;
+   letter-spacing: 0.3em;
+   /*margin-top: -50%;*/
+   color: #000000;
+   order: 4;
+
+
+  }
+  #btn1:hover:after {
+    width: 100%;
+    left: 0;
+  }
+  #btn1:after {
+    border-radius: 5px;
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+    background-color: #ffe566;
+    right: 0;
+  }
+  #btn1:active {
+    top: 2px;
+  }
 
 .modal {
     display: none;
@@ -157,7 +229,7 @@ p {
     /* Stay in place */
     z-index: 1;
     /* Sit on top */
-    padding-top: 100px;
+    padding-top: 300px;
     /* Location of the box */
     left: 0;
     top: 0;

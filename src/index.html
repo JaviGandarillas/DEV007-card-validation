@@ -13,24 +13,20 @@
   <header>
   </header>
   <main class="todo">
-    <div class="tarjeta">
-      <input id="tarjetaImg" type="image" src="tarjeta.png.png">
-    </div>
-    <p class="numEnTarjeta"></p>
-    <div class="cajaAzul">
+    
       <div class="datosCaja">
-        <h2 id="tituloInicio">Validación de tarjeta de crédito</h2><br><br>
-
+        <div class="parte1">
+        <p id="tituloInicio">Validación de tarjeta de crédito</p> 
+        <div class="tarjeta">
+            <input id="tarjetaImg" type="image" src="tarjeta.png.png">
+        </div>
+        </div>
+        
+        <div class="parte2">
         <div class="div1">
           <label id="instruccion">Para continuar con la transacción, por favor valide su tarjeta</label><br><br>
-        </div>
-        <div class="div2">
           <input type="text" id="nTarjeta" placeholder="Número de tarjeta" maxlength="16"
             oninput="this.value = this.value.replace(/[^0-9]/g, '')" />
-
-        </div>
-        <div class="div3">
-          <h2 class="alerta1"></h2>
         </div>
         <div class="div5">
           <h6 id="ej">Ejemplo: 1234-1234-1234-1234</h6><br><br>
@@ -39,9 +35,8 @@
           <button type="submit" id="btn1">Validar</button>
           <!-- <input type="submit" id = "btn1"> -->
         </div>
-        <h6 class="contenedor"> </h6>
-      </div>
-    </div>
+        </div>
+      
     <div id="myModal" class="modal">
 
       <!-- Modal content -->
@@ -50,7 +45,7 @@
         <p id="aprobada"></p>
         <p id="invalida"></p>
       </div>
-
+    </div>
     </div>
 
 
