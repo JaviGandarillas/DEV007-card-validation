@@ -11,7 +11,6 @@
 <body>
   <script type="module" src="index.js"></script>
   <header>
-    <h2 id="tituloInicio">Valide su tarjeta</h2><br><br>
   </header>
   <main class="todo">
     <div class="tarjeta">
@@ -20,11 +19,13 @@
     <p class="numEnTarjeta"></p>
     <div class="cajaAzul">
       <div class="datosCaja">
+        <h2 id="tituloInicio">Validación de tarjeta de crédito</h2><br><br>
+
         <div class="div1">
-          <label id="instruccion">Ingrese número de tarjeta:</label><br><br>
+          <label id="instruccion">Para continuar con la transacción, por favor valide su tarjeta</label><br><br>
         </div>
         <div class="div2">
-          <input type="text" id="nTarjeta" placeholder="Introduce tu número de tarjeta" maxlength="16"
+          <input type="text" id="nTarjeta" placeholder="Número de tarjeta" maxlength="16"
             oninput="this.value = this.value.replace(/[^0-9]/g, '')" />
 
         </div>
@@ -32,7 +33,7 @@
           <h2 class="alerta1"></h2>
         </div>
         <div class="div5">
-          <h6 id="ej">Ejemplo: 1234-1234-1234</h6><br><br>
+          <h6 id="ej">Ejemplo: 1234-1234-1234-1234</h6><br><br>
         </div>
         <div class="div6">
           <button type="submit" id="btn1">Validar</button>

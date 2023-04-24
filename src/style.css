@@ -1,7 +1,7 @@
 body {
     position: relative;
     margin: 0;
-    background-color: rgba(218, 220, 220, 0.445);
+    background-color: #A7F0F0;
     margin-left: auto;
     margin-right: auto;
     max-width: 600px;
@@ -10,147 +10,142 @@ body {
     height: 50px;
     padding: 25px;
     text-align: center;
-    justify-content: ce;
+    justify-content: center;
     display: inline-flexbox;
 }
 
-#tarjetaImg {
-    margin-top: -350px;
-    margin-bottom: 20px;
-    margin-left: -100px;
-    padding: -50px;
+#nTarjeta {
+    position: absolute;
+    width: 353px;
+    height: 67px;
+    margin-top: -25%;
+    margin-left: -32%;
+    background: #F5EFEF;
+    font-size: 20px;
+    font-family: 'Courier Prime';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3em;
+    text-align: center;
+
+    color: #000000;
 }
 
-.cajaAzul {
-    margin-top: -100px;
-}
 
+#instruccion {
+    position: absolute;
+    width: 369px;
+    height: 60px;
+    top: 50%;
+    font-family: 'Josefin Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.3em;
+    margin-left: 50px;
+    color: #000000;
+    left: 43%;
+    transform: translateX(-50%);
+}
 
 .div2 {
-    margin-top: -20px;
-    position: relative;
-    width: auto;
-    height: 51px;
-    margin: 10px;
-    margin-top: 10px;
-    margin-left: auto;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.1em;
-
-    color: #080757;
+    top: -100px;
 
 }
 
-
-.instru {
-    position: relative;
-    width: 368px;
-    height: 51px;
-    margin: 10px;
-    margin-top: 125px;
-    margin-left: -160px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.1em;
-
-    color: #080757;
-}
-
-.boxEnTarjeta {
-
-    margin-top: 200px;
-    margin-bottom: -180px;
-    margin-left: auto;
-    margin-right: auto;
-
-}
 
 #tituloInicio {
-    width: 300px;
-    margin-left: 120px;
-    margin-right: 100px;
-    font-family: 'Inter';
+    position: absolute;
+    width: 391px;
+    height: 68px;
+    margin-left: 83px;
+    margin-right: auto;
+    font-family: 'Libre Caslon Text';
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 30px;
     text-align: center;
     letter-spacing: 0.3em;
+    margin-top: -77%;
+    color: #000000;
 
 }
 
+#tarjetaImg {
+    margin-top: -10%;
+}
 
 .todo {
     position: absolute;
     box-sizing: content-box;
     background-color: #B1C8F3;
     width: 100%;
-    max-width: 200px;
-    min-width: 300px;
-    height: 300px;
+    max-width: 528px;
+    min-width: 528px;
     padding: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
     border-radius: 10px;
-    margin-top: 150px;
+    margin-top: 25px;
     box-shadow: 5px 5px 10px;
     display: table-column-group;
     flex-direction: row;
     justify-content: center;
+    background: #FFFFFF;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    height: 615px;
+    width: 528px;
+    left: auto;
 
+    border-radius: 7px;
+    Fill: Solid
 }
 
-.div3 {
 
-    font-family: 'Courier Prime';
+
+#ej {
+    position: absolute;
+    width: 361px;
+    height: 28px;
+    margin-top: -15%;
+    margin-left: 15%;
+    font-family: 'Jaldi';
     font-style: normal;
     font-weight: 400;
-    font-size: 10px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
     letter-spacing: 0.3em;
-    color: red;
-    text-shadow: 1px 1px 1px rgb(137, 5, 5);
-    margin-top: -35px;
-    margin-bottom: 2px;
-
+    color: #000000;
 }
-
-
-
 
 p {
     margin: 0;
-
 }
 
 #btn1 {
-    position: ;
-    width: 200px;
-    height: 28px;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 2px 2px 5px;
-
-
+    position: absolute;
+    width: 194px;
+    height: 52px;
     background: #DABE2B;
-    flex: 1;
+    margin-left: 0%;
+    margin-right: auto;
+    box-shadow: 2px 2px 3px;
+    margin-top: 100%;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 20px;
+    line-height: 24px;
     text-align: center;
     letter-spacing: 0.3em;
-    border-radius: 10px;
     color: #000000;
+    border-radius: 7px;
     padding: -200px;
     margin: auto;
 }
@@ -176,6 +171,13 @@ p {
     /* Fallback color */
     background-color: rgba(0, 0, 0, 0.4);
     /* Black w/ opacity */
+    font-family: 'Josefin Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.3em;
 }
 
 /* Modal Content */
@@ -185,6 +187,7 @@ p {
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
+    
 }
 
 /* The Close Button */
