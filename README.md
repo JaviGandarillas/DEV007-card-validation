@@ -7,9 +7,9 @@ El usuario ingresa en el campo "número de tarjeta" los 16 dígitos correspondie
 
 Existen 3 resultado posibles para el número de tarjeta ingresado, este se muestra en una ventana modal:
 
-+"Ingrese un número válido": Para cuando se haya hecho click en "Validar" y el campo se encuentre vacío.
-+"Tarjeta '####ero' aprobada": Para el caso en que la tarjeta sea valida según el algoritmo de Luhn. El número de tarjeta se muestra enmascarado.
-+"Tarjeta '####ero' rechazada": Si el número de tarjeta es inválido. También arroja en el mensaje el número enmascarado.
++ "Ingrese un número válido": Para cuando se haya hecho click en "Validar" y el campo se encuentre vacío.
++ "Tarjeta '####ero' aprobada": Para el caso en que la tarjeta sea valida según el algoritmo de Luhn. El número de tarjeta se muestra enmascarado.
++ "Tarjeta '####ero' rechazada": Si el número de tarjeta es inválido. También arroja en el mensaje el número enmascarado.
 
 ### Indicaciones de uso
 
