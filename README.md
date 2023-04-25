@@ -13,7 +13,7 @@ Existen 3 resultado posibles para el número de tarjeta ingresado, este se muest
 + 2.- Haga clic en "Validar".
 + 3.- Si el mensaje retorna "Ingrese un número válido", entonces vuelva al paso 1.
 
-###Los resultados serán:
+### Resultados
 
 "Ingrese un número válido": Para cuando se haya hecho click en "Validar" y el campo se encuentre vacío.
 "Tarjeta '####ero' aprobada": Para el caso en que la tarjeta sea valida según el algoritmo de Luhn. El número de tarjeta se muestra enmascarado con #, excepto los últimos 4 dígitos.
