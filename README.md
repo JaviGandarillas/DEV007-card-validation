@@ -9,9 +9,9 @@ Existen 3 resultado posibles para el número de tarjeta ingresado, este se muest
 
 ### Indicaciones de uso
 
-H51.- Ingrese su número de tarjeta de crédito en el campo señalado.
-H52.- Haga clic en "Validar".
-H53.- Si el mensaje retorna "Ingrese un número válido", entonces vuelva al paso 1.
++ 1.- Ingrese su número de tarjeta de crédito en el campo señalado.
++ 2.- Haga clic en "Validar".
++ 3.- Si el mensaje retorna "Ingrese un número válido", entonces vuelva al paso 1.
 
 ###Los resultados serán:
 
