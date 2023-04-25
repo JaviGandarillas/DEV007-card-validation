@@ -19,11 +19,14 @@ Existen 3 resultado posibles para el número de tarjeta ingresado, este se muest
 
 ### Resultados
 
-"Ingrese un número válido": Para cuando se haya hecho click en "Validar" y el campo se encuentre vacío.
-"Tarjeta '####ero' aprobada": Para el caso en que la tarjeta sea valida según el algoritmo de Luhn. El número de tarjeta se muestra enmascarado con #, excepto los últimos 4 dígitos.
-"Tarjeta '####ero' rechazada": Si el número de tarjeta es inválido. También arroja en el mensaje el número enmascarado  con #, excepto los últimos 4.
 
+El usuario ingresa en el campo "número de tarjeta" los 16 dígitos correspondientes a su tarjeta de crédito, luego hacer click en el botón "Validar".
 
+Existen 3 resultado posibles para el número de tarjeta ingresado, este se muestra en una ventana modal:
+
++ "Ingrese un número válido": Para cuando se haya hecho click en "Validar" y el campo se encuentre vacío.
++ "Tarjeta '####ero' aprobada": Para el caso en que la tarjeta sea valida según el algoritmo de Luhn. El número de tarjeta se muestra enmascarado, excepto los últimos 4 dígitos.
++ "Tarjeta '####ero' rechazada": Si el número de tarjeta es inválido. También arroja en el mensaje el número enmascarado, excepto los últimos 4 dígitos.
 
 ### Tecnologías Utilizadas
 
